@@ -3,8 +3,8 @@ NetHack iOS
 
 Forked from:
 
-* [NetHack](https://github.com/Vanilla-NetHack/NetHack)
-* [NetHack](https://github.com/dirkz/NetHack)
+* [Vanilla-NetHack/NetHack](https://github.com/Vanilla-NetHack/NetHack)
+* [dirkz/NetHack](https://github.com/dirkz/NetHack)
 
 See also the README in the top folder of this distribution for information about
 Vanilla NetHack.
