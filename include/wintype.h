@@ -5,7 +5,15 @@
 #ifndef WINTYPE_H
 #define WINTYPE_H
 
-typedef int winid;		/* a window identifier */
+/*
+ * a window identifier that can be used as pointer
+ * on 32- and 64-bit platforms (DZ)
+ */
+#ifdef size_t
+typedef size_t winid;
+#else
+typedef int winid;
+#endif
 
 /* generic parameter - must not be any larger than a pointer */
 typedef union any {

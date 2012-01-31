@@ -195,8 +195,10 @@ bot1()
 	Sprintf(nb = eos(nb),"  ");
 	i = mrank_sz + 15;
 	j = (nb + 2) - newbot1; /* aka strlen(newbot1) but less computation */
+
 	if((i - j) > 0)
 		Sprintf(nb = eos(nb),"%*s", i-j, " ");	/* pad with spaces */
+	
 	if (ACURR(A_STR) > 18) {
 		if (ACURR(A_STR) > STR18(100))
 		    Sprintf(nb = eos(nb),"St:%2d ",ACURR(A_STR)-100);
