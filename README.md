@@ -7,8 +7,8 @@ Forked (indirectly) from [NetHack
 See also the README in the top folder of this distribution for information about
 Vanilla NetHack.
 
-This can be seen as common base for various iOS (and maybe even OS X) ports. It
-contains some basic files.
+Common base for various iOS (and maybe even OS X) ports, containing files for
+basic infrastructure.
 
 January 2012  
 Dirk Zimmermann  
