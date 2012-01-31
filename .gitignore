@@ -1,0 +1,66 @@
+# os x finder
+.DS_Store
+
+# xcode 3
+*.mode1v3
+*.pbxuser
+
+# xcode 4
+xcuserdata
+
+# svn
+.svn
+
+# emacs backup files
+*~
+
+# vi
+*.swp
+
+# build directory
+build
+
+# some artifacts
+*.o
+*.lev
+
+# some results of applying diff
+*.rej
+*.orig
+
+# NetHack specific files
+Makefile
+
+data
+dungeon.pdf
+options
+oracles
+quest.dat
+quest_levs
+rumors
+spec_levs
+dungeon
+
+date.h
+dgn_comp.h
+filename.h
+onames.h
+pm.h
+tile.h
+vis_tab.h
+lev_comp.h
+
+config.h-t
+hack.h-t
+monstr.c
+tile.c
+vis_tab.c
+
+dgn_comp
+dgn_lex.c
+dgn_yacc.c
+lev_comp
+lev_lex.c
+lev_yacc.c
+makedefs
+tilemap
