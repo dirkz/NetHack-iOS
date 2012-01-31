@@ -7,6 +7,10 @@
 #include "hack.h"
 #include "dlb.h"
 
+#ifdef __APPLE__
+#include "TargetConditionals.h"
+#endif
+
 #include <sys/stat.h>
 #include <signal.h>
 #include <pwd.h>
@@ -45,7 +49,11 @@ static boolean wiz_error_flag = FALSE;
 #endif
 
 int
+#if TARGET_OS_IPHONE
+unix_main(argc,argv)
+#else
 main(argc,argv)
+#endif
 int argc;
 char *argv[];
 {
