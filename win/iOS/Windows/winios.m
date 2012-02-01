@@ -430,7 +430,7 @@ char ios_yn_function(const char *question, const char *choices, CHAR_P def) {
 //	DLog(@"yn_function %s", question);
     NSString *q = [NSString stringWithCString:question encoding:NSASCIIStringEncoding];
     NSString *ch = nil;
-    if (ch) {
+    if (choices) {
         ch = [NSString stringWithCString:choices encoding:NSASCIIStringEncoding];
     }
     NHYNQuestion *yn = [NHYNQuestion questionWithQuestion:q choices:ch defaultChoice:def];
